@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+var str=window.prompt("enter string");
+var arr=[];
+arr=str.split(' ');
+var l=arr.length;
+document.write("[");
+for(var i=0;i<l;i++)
+{
+document.write("\""+arr[i]+"\"");
+if(i<l-1)
+{document.write(",");}
+}
+document.write("]");
+</script>
+
+</body>
+</html> 
